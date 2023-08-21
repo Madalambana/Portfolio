@@ -288,3 +288,27 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+ img{
+  margin-bottom: -200px;
+}
+
+ .wrench img{
+  float: right;
+  margin-bottom: 100px;
+  margin-right: -250px;
+  margin-top: -250px;
+ }
+
+ img{
+  opacity: 0;
+  animation-name: img;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes img {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+  
+}

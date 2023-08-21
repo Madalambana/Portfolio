@@ -114,14 +114,13 @@ a:active{
     border-radius: 60px;
     box-sizing: border-box;
     padding-bottom: 10px;
-    background-image: url("/home/alex/Portfolio/testii.jpg");
+    background-image: url("../assets/home.jpeg");
     background-position: center center;
 }
 
 .backgrd{    
     padding-top: 20px;
     padding-bottom: 50px;
-    /* background-color: rgb(170, 168, 169); */
     border-radius:2px ;
     color: white;
 }

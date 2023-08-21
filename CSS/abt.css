@@ -90,9 +90,13 @@ a:active{
     border-radius: 60px;
     box-sizing: border-box;
     margin-bottom: 8%;
-    background-image: url("../assets/react.png");
+    
     background-position: center center ;    
     /* background-repeat: no-repeat; */
+}
+
+.profilepic img{
+    border-radius: 60px;
 }
 
 .backgrd{
