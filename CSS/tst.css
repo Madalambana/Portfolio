@@ -107,9 +107,7 @@ h1{
    transition-duration: 1s;
 }
 
-.quad1:hover {
-    transform: rotateY(180deg);
-  }
+
 
 .quad1 h3{
     background-color: aliceblue;
@@ -138,9 +136,6 @@ h1{
    transition-duration: 1s;
 }
 
-.quad2:hover {
-    transform: rotateY(180deg);
- }
 
 .quad2 h3{
     background-color: aliceblue;
@@ -182,10 +177,6 @@ h1{
 
 }
 
-.quad3:hover {
-    transform: rotateY(180deg);
-  }
-
 .quad4{
     float: right;
     width: 45%;
@@ -197,8 +188,7 @@ h1{
     margin-bottom: 25px;
     background-color: aliceblue;
     border-radius: 20px;
-    transition-property: transform;
-   transition-duration: 1s;
+
 }
 
 .quad4 h3{
@@ -213,10 +203,6 @@ h1{
 
 }
 
-.quad4:hover {
-    transform: rotateY(180deg);
-  }
-
 .subhead p{
     text-align: center;
     font-size: 18px;
@@ -226,4 +212,14 @@ h1{
 
 .backgrd p{
     padding: 15px;
+}
+
+img{
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+img:hover{
+    transform: rotateY(360deg);
 }
